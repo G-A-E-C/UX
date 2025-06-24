@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportBoard | Settings</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="settings-bg">
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="icon">🏟️</span>
+        <span class="brand">SportBoard</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="user-management.html">Users</a></li>
+        <li><a href="settings.html" class="active">Settings</a></li>
+      </ul>
+      <div class="nav-actions">
+        <input type="search" class="search-input" placeholder="Search">
+      </div>
+    </nav>
+  </header>
+  <main class="settings-container">
+    <aside class="settings-sidebar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="settings.html" class="active">Settings</a></li>
+      </ul>
+      <div class="settings-shortcuts">
+        <button onclick="window.location='user-management.html'" class="btn-settings-shortcut">Go to User Management</button>
+        <button onclick="window.location='competition-details.html'" class="btn-settings-shortcut">Go to Premier League</button>
+      </div>
+    </aside>
+    <section class="settings-content">
+      <h1>Settings</h1>
+      <div class="settings-section">
+        <h2>Account</h2>
+        <div class="settings-list">
+          <div class="settings-item">
+            <strong>Account Information</strong>
+            <span>Manage your account information</span>
+          </div>
+          <div class="settings-item">
+            <strong>Security</strong>
+            <span>Manage your account security</span>
+          </div>
+        </div>
+      </div>
+      <div class="settings-section">
+        <h2>Preferences</h2>
+        <div class="settings-list">
+          <div class="settings-item">
+            <strong>Notifications</strong>
+            <span>Manage your notification preferences</span>
+          </div>
+          <div class="settings-item">
+            <strong>Favorites</strong>
+            <span>Manage your favorite teams and players</span>
+          </div>
+          <div class="settings-item">
+            <strong>Privacy</strong>
+            <span>Manage your privacy settings</span>
+          </div>
+        </div>
+      </div>
+      <div class="settings-section">
+        <h2>Support</h2>
+        <div class="settings-list">
+          <div class="settings-item">
+            <strong>Help Center</strong>
+            <span>Get help with the platform</span>
+          </div>
+          <div class="settings-item">
+            <strong>Contact Us</strong>
+            <span>Contact support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

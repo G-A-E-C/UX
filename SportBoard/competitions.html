@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportBoard | Competitions</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="competitions-bg">
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="icon">🏟️</span>
+        <span class="brand">SportBoard</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitions.html" class="active">Competitions</a></li>
+        <li><a href="user-management.html">Users</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+      <div class="nav-actions">
+        <input type="search" class="search-input" placeholder="Search">
+      </div>
+    </nav>
+  </header>
+  <main class="competitions-container">
+    <h1>Competitions</h1>
+    <p class="subtitle">Explore various sports leagues and tournaments from around the globe.</p>
+    <div class="filters">
+      <button class="filter-btn">Sport ▼</button>
+      <button class="filter-btn">Region ▼</button>
+      <button class="filter-btn">Status ▼</button>
+    </div>
+    <div class="table-wrapper">
+      <table class="competitions-table">
+        <thead>
+          <tr>
+            <th>Competition</th>
+            <th>Sport</th>
+            <th>Region</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr onclick="window.location='competition-details.html'">
+            <td>Premier League</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status live">Live</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>NBA</td>
+            <td>Basketball</td>
+            <td>North America</td>
+            <td><span class="status upcoming">Upcoming</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>Champions League</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status completed">Completed</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>MLB</td>
+            <td>Baseball</td>
+            <td>North America</td>
+            <td><span class="status live">Live</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>La Liga</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status upcoming">Upcoming</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>NFL</td>
+            <td>American Football</td>
+            <td>North America</td>
+            <td><span class="status completed">Completed</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>Serie A</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status live">Live</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>NHL</td>
+            <td>Ice Hockey</td>
+            <td>North America</td>
+            <td><span class="status upcoming">Upcoming</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>Bundesliga</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status completed">Completed</span></td>
+          </tr>
+          <tr onclick="window.location='competition-details.html'">
+            <td>Ligue 1</td>
+            <td>Soccer</td>
+            <td>Europe</td>
+            <td><span class="status live">Live</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

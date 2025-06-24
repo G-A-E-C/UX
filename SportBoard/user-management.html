@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportBoard | User Management</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="user-management-bg">
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="icon">🏟️</span>
+        <span class="brand">SportBoard</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="user-management.html" class="active">Users</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+      <div class="nav-actions">
+        <input type="search" class="search-input" placeholder="Search">
+      </div>
+    </nav>
+  </header>
+  <main class="user-management-container">
+    <h1>User Management</h1>
+    <p class="subtitle">Manage user accounts, roles, and permissions.</p>
+    <div class="user-filters">
+      <input type="search" class="user-search" placeholder="Search users by name or email">
+      <button class="filter-btn">Role ▼</button>
+      <button class="filter-btn">Status ▼</button>
+      <button class="filter-btn">Date Joined ▼</button>
+      <button class="btn-add-user">+ Add User</button>
+    </div>
+    <div class="table-wrapper">
+      <table class="user-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Date Joined</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sophia Clark</td>
+            <td>sophia.clark@email.com</td>
+            <td><span class="role admin">Admin</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-01-15</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Ethan Bennett</td>
+            <td>ethan.bennett@email.com</td>
+            <td><span class="role editor">Editor</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-02-20</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Olivia Carter</td>
+            <td>olivia.carter@email.com</td>
+            <td><span class="role viewer">Viewer</span></td>
+            <td><span class="status inactive">Inactive</span></td>
+            <td>2023-03-10</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Liam Davis</td>
+            <td>liam.davis@email.com</td>
+            <td><span class="role editor">Editor</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-04-05</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Ava Evans</td>
+            <td>ava.evans@email.com</td>
+            <td><span class="role viewer">Viewer</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-05-12</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Noah Foster</td>
+            <td>noah.foster@email.com</td>
+            <td><span class="role admin">Admin</span></td>
+            <td><span class="status inactive">Inactive</span></td>
+            <td>2023-06-18</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Isabella Green</td>
+            <td>isabella.green@email.com</td>
+            <td><span class="role editor">Editor</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-07-22</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Jackson Hayes</td>
+            <td>jackson.hayes@email.com</td>
+            <td><span class="role viewer">Viewer</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-08-30</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Mia Ingram</td>
+            <td>mia.ingram@email.com</td>
+            <td><span class="role admin">Admin</span></td>
+            <td><span class="status active">Active</span></td>
+            <td>2023-09-15</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+          <tr>
+            <td>Lucas Jenkins</td>
+            <td>lucas.jenkins@email.com</td>
+            <td><span class="role editor">Editor</span></td>
+            <td><span class="status inactive">Inactive</span></td>
+            <td>2023-10-20</td>
+            <td><a href="#" class="edit-link">Edit</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <a href="#" class="page active">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <a href="#" class="page">4</a>
+        <a href="#" class="page">5</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

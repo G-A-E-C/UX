@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportBoard | Login</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="login-bg">
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="icon">🏟️</span>
+        <span class="brand">SportBoard</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="user-management.html">Users</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="login-container">
+    <img src="assets/img/stadium.jpg" alt="Estadio" class="login-image">
+    <form class="login-form" autocomplete="off">
+      <h1>Welcome Back</h1>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <div class="login-options">
+        <label class="remember-me">
+          <input type="checkbox" id="remember" name="remember">
+          Remember Me
+        </label>
+        <a href="#" class="forgot">Forgot Password?</a>
+      </div>
+      <button type="submit" class="btn btn-login">Log In</button>
+    </form>
+  </main>
+</body>
+</html>
