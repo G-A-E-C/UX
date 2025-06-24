@@ -46,12 +46,12 @@
 
 ### Referencias visuales del diseño generado
 
-![Login](./descarga.png)
-![Dashboard](./Hub.png)
-![Competitions](./Competitions.png)
-![Premier League](./Premier.png)
-![User Management](./Usermanage.png)
-![Settings](./Settings.png)
+![Login](assets/img/descarga.png)
+![Dashboard](assets/img/Hub.png)
+![Competitions](assets/img/Competitions.png)
+![Premier League](assets/img/Premier.png)
+![User Management](assets/img/Usermanage.png)
+![Settings](assets/img/Settings.png)
 
 ---
 
