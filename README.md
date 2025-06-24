@@ -46,12 +46,13 @@
 
 ### Referencias visuales del diseño generado
 
-![Login](assets/img/descarga.png)
-![Dashboard](assets/img/Hub.png)
-![Competitions](assets/img/Competitions.png)
-![Premier League](assets/img/Premier.png)
-![User Management](assets/img/Usermanage.png)
-![Settings](assets/img/Settings.png)
+![Login](/SportBoard/assets/img/descarga.png)
+![Dashboard](/SportBoard/assets/img/Hub.png)
+![Competitions](/SportBoard/assets/img/Competitions.png)
+![Premier League](/SportBoard/assets/img/Premier.png)
+![User Management](/SportBoard/assets/img/Usermanage.png)
+![Settings](/SportBoard/assets/img/Settings.png)
+![Settings Example](/SportBoard/assets/img/SettingsExample.png)
 
 ---
 
