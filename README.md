@@ -52,7 +52,12 @@
 ![Premier League](/SportBoard/assets/img/Premier.png)
 ![User Management](/SportBoard/assets/img/Usermanage.png)
 ![Settings](/SportBoard/assets/img/Settings.png)
-![Settings Example](/SportBoard/assets/img/SettingsExample.png)
+![Movil Expample](/SportBoard/assets/img/movile-ux.png)
+![Mobile Example](/SportBoard/assets/img/movile_competitions.png)
+![Mobile Example 2](/SportBoard/assets/img/movile_management.png)
+![Mobile Example 3](/SportBoard/assets/img/movile_premierelegue.png)
+![Mobile Example 4](/SportBoard/assets/img/movile_settings.png)
+![Mobile Example 5](/SportBoard/assets/img/movile_stats.png)
 
 ---
 
